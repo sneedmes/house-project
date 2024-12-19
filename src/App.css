@@ -1,3 +1,17 @@
+:root{
+  --color-special: #598D66;
+  --color-text: #2C2D35;
+  --bgcolor-main: #E1EDE6;
+  --color-paragraph: #86928B;
+  --padding-button-intro: 21px 60px;
+  --padding-button-card-add: 21px 105px;
+  --border-radius-button-card: 20px;
+  --bgcolor-button-card: #D4E8D9;
+  --bgcolor-button-card-active: #376B44;
+  --padding-button-card: 10px 20px;
+}
+
+
 .App {
   text-align: center;
 }

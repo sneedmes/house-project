@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    padding: 33px 165px;
+    margin: 0;
+    gap: 500px;
+    box-sizing: content-box;
+    min-width: 100%;
+    justify-content: space-between;
+    background-color: var(--bgcolor-main);
+}
+
+.logo{
+    display: flex;
+    gap: 8px;
+}
+
+.logo img{
+    object-fit: contain;
+}
+
+.nav{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
