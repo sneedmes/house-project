@@ -1,5 +1,32 @@
 .header_button{
-    text-decoration: none;
     border: none;
     background-color: var(--bgcolor-main);
+    font-size: 20px;
+}
+
+.header_button:hover{
+    cursor: pointer;
+    padding-bottom: 5px;
+    transition: padding-bottom 0.2s;
+}
+
+.intro_button{
+    border: 1px var(--color-special) solid;
+    color: var(--color-special);
+    background: none;
+    font-size: 20px;
+    padding: 21px 60px;
+    max-width: 227px;
+}
+
+.intro_button:hover{
+    cursor: pointer;
+}
+
+.card_button{
+    border: 1px var(--color-special) solid;
+    color: var(--color-special);
+    background: none;
+    font-size: 20px;
+    padding: 21px 106px;
 }

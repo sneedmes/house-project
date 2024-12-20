@@ -13,6 +13,16 @@ export const Button=({position, title}:ButtonProps)=>{
                     {title}
                 </button>
                 }
+            {position === 'intro' &&
+                <button className={`${style.intro_button}`}>
+                    {title}
+                </button>
+            }
+            {position === 'card' &&
+                <button className={`${style.card_button}`}>
+                    {title}
+                </button>
+            }
         </>
     )
 }

@@ -2,22 +2,22 @@ import {Button} from "../Button/Button";
 import Box from "@mui/material/Box"
 import Container from "@mui/material/Container";
 import {ShoppingCartOutlined} from "@mui/icons-material";
-import style from "./Header.module.css"
+import styles from "./Header.module.css"
 
 export const Header = () => {
     return (
         <>
-            <Container disableGutters className={`${style.header}`}>
+            <Container disableGutters className={`${styles.header}`}>
 
                 {/*Start of logo section*/}
-                <Box component="section" className={`${style.logo}`}>
-                    <img src="logo.png" alt=""/>
-                    <h1>Ink. House</h1>
+                <Box component="section" className={`${styles.logo}`}>
+                    <a href="#"><img src="logo.png" alt=""/></a>
+                    <a href="#">Ink. House</a>
                 </Box>
                 {/*End of logo section*/}
 
                 {/*Start of nav section*/}
-                <Box component="nav" className={`${style.nav}`}>
+                <Box component="nav" className={`${styles.nav}`}>
                     <Button position={"header"} title={"Репродукции"}/>
                     <Button position={"header"} title={"Новинки"}/>
                     <Button position={"header"} title={"О нас"}/>
