@@ -15,7 +15,7 @@ export const Introdaction=()=>{
                 <Box component="section" className={`${styles.intro_info}`}>
                     <h1>Реплики картин от <a href="#">Ink. House</a></h1>
                     <p>Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.</p>
-                    <Button position="intro" title="Продукция"/>
+                    <Button position="intro" title="Продукция" onClick={()=>null} isActive={false}/>
                 </Box>
 
             </Container>

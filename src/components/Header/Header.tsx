@@ -18,9 +18,9 @@ export const Header = () => {
 
                 {/*Start of nav section*/}
                 <Box component="nav" className={`${styles.nav}`}>
-                    <Button position={"header"} title={"Репродукции"}/>
-                    <Button position={"header"} title={"Новинки"}/>
-                    <Button position={"header"} title={"О нас"}/>
+                    <Button position={"header"} title={"Репродукции"} onClick={()=>null} isActive={false}/>
+                    <Button position={"header"} title={"Новинки"} onClick={()=>null} isActive={false}/>
+                    <Button position={"header"} title={"О нас"} onClick={()=>null} isActive={false}/>
                     <ShoppingCartOutlined/>
                 </Box>
                 {/*End of nav section*/}

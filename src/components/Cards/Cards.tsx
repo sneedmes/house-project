@@ -3,21 +3,32 @@ import Box from "@mui/material/Box";
 import {Button} from "../Button/Button";
 import styles from "./Cards.module.css";
 import {Card} from "./Card/Card";
+import {useState} from "react";
 
 export const Cards=()=>{
+    const [tab, setTab] = useState('france')
+    const handleClick=(tab: string)=>{
+        setTab(tab)
+    }
     return(
         <>
             <Container disableGutters className={`${styles.cards}`}>
 
                 <Box component="section" className={`${styles.cards_title}`}>
-                    <h2>Репродукции</h2>
-                    <Button position="cards" title="Франция"/>
-                    <Button position="cards" title="Германия"/>
-                    <Button position="cards" title="Англия"/>
+                    <Box component="section" className={`${styles.cards_name}`}>
+                        <h2>Репродукции</h2>
+                    </Box>
+                    <Box component="section" className={`${styles.cards_buttons}`}>
+                        <Button position="cards" title="Франция" onClick={()=>handleClick('france')} isActive={tab === "france"}/>
+                        <Button position="cards" title="Германия" onClick={()=>handleClick('german')} isActive={tab === "german"}/>
+                        <Button position="cards" title="Англия" onClick={()=>handleClick('england')} isActive={tab === "england"}/>
+                    </Box>
                 </Box>
 
                 <Box component="section" className={`${styles.cards_main}`}>
-                    <Card/>
+                    {tab === "france" && <Card section="france"/>}
+                    {tab === "german" && <Card section="german"/>}
+                    {tab === "england" && <Card section="england"/>}
                 </Box>
 
             </Container>
