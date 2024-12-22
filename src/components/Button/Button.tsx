@@ -38,6 +38,13 @@ export const Button=({position, title, onClick, isActive}:ButtonProps)=>{
                     {title}
                 </button>
             }
+            {position === 'ad' &&
+                <button
+                    onClick={onClick}
+                    className={`${style.ad_button}`}>
+                    {title}
+                </button>
+            }
         </>
     )
 }

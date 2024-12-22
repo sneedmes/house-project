@@ -3,6 +3,7 @@ import './App.css';
 import {Header} from "./components/Header/Header";
 import {Introdaction} from "./components/Introduction/Introdaction";
 import {Cards} from "./components/Cards/Cards";
+import {Adverstment} from "./components/Adverstment/Adverstment";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Header/>
             <Introdaction/>
             <Cards/>
+            <Adverstment/>
         </>
     );
 }
