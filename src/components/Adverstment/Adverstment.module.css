@@ -1,11 +1,30 @@
 .ad{
     display: flex;
     flex-direction: column;
+    min-width: 100%;
+    margin: 70px;
+    padding: 70px 204px;
+    background-image: url("../../../public/ad_back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    backdrop-filter: opacity(0.6);
+}
+
+.ad_container{
+    width: 540px;
 }
 
 .ad_title{
     display: flex;
     gap: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.ad_title img{
+    width: 80px;
+    height: 80px;
 }
 
 .ad_title h2{
@@ -17,4 +36,9 @@
     flex-direction: column;
     gap: 20px;
     margin-bottom: 60px;
+}
+
+.ad_text p{
+    font-size: 18px;
+    line-height: 150%;
 }
