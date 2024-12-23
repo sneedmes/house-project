@@ -1,4 +1,4 @@
-.ad{
+.promo{
     display: flex;
     flex-direction: column;
     min-width: 100%;
@@ -11,34 +11,34 @@
     backdrop-filter: opacity(0.6);
 }
 
-.ad_container{
+.promo_container{
     width: 540px;
 }
 
-.ad_title{
+.promo_title{
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
     align-items: center;
 }
 
-.ad_title img{
+.promo_title img{
     width: 80px;
     height: 80px;
 }
 
-.ad_title h2{
+.promo_title h2{
     font-size: 40px;
 }
 
-.ad_text{
+.promo_text{
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-bottom: 60px;
 }
 
-.ad_text p{
+.promo_text p{
     font-size: 18px;
     line-height: 150%;
 }

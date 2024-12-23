@@ -3,7 +3,8 @@ import './App.css';
 import {Header} from "./components/Header/Header";
 import {Introdaction} from "./components/Introduction/Introdaction";
 import {Cards} from "./components/Cards/Cards";
-import {Adverstment} from "./components/Adverstment/Adverstment";
+import {Promo} from "./components/Promo/Promo";
+import {Team} from "./components/Team/Team";
 
 function App() {
     return (
@@ -11,7 +12,8 @@ function App() {
             <Header/>
             <Introdaction/>
             <Cards/>
-            <Adverstment/>
+            <Promo/>
+            <Team/>
         </>
     );
 }

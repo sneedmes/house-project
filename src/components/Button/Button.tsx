@@ -38,10 +38,10 @@ export const Button=({position, title, onClick, isActive}:ButtonProps)=>{
                     {title}
                 </button>
             }
-            {position === 'ad' &&
+            {position === 'promo' &&
                 <button
                     onClick={onClick}
-                    className={`${style.ad_button}`}>
+                    className={`${style.promo_button}`}>
                     {title}
                 </button>
             }

@@ -64,14 +64,14 @@
     transition: all 0.5s ease;
 }
 
-.ad_button{
+.promo_button{
     background-color: #EEDB6D;
     font-size: 20px;
     border: none;
     padding: var(--padding-button-intro);
 }
 
-.ad_button:hover{
+.promo_button:hover{
     cursor: pointer;
 }
 
