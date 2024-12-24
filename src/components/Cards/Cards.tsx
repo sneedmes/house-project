@@ -3,7 +3,6 @@ import Box from "@mui/material/Box";
 import {Button} from "../Button/Button";
 import styles from "./Cards.module.css";
 import {Card} from "./Card/Card";
-import {useState} from "react";
 
 export const Cards=()=>{
     const [tab, setTab] = useState('france')

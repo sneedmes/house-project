@@ -15,7 +15,7 @@
     color: var(--color-special);
     background: none;
     font-size: 20px;
-    padding: 21px 60px;
+    padding: var(--padding-button-intro);
     max-width: 227px;
 }
 
@@ -27,11 +27,11 @@
 }
 
 .cards_button{
-    border-radius: 20px;
+    border-radius: var(--border-radius-button-card);
     border: none;
     background-color: var(--bgcolor-button-card);
     color: var(--color-text);
-    padding: 10px 20px;
+    padding: var(--padding-button-card);
     font-size: 20px;
 }
 
@@ -40,11 +40,11 @@
 }
 
 .cards_button_active{
-    border-radius: 20px;
+    border-radius: var(--border-radius-button-card);
     border: none;
     background-color: var(--bgcolor-button-card-active);
     color: #F4F6F5;
-    padding: 10px 20px;
+    padding: var(--padding-button-card);
     font-size: 20px;
     cursor: pointer;
 }
@@ -54,7 +54,7 @@
     color: var(--color-special);
     background: none;
     font-size: 20px;
-    padding: 21px 106px;
+    padding: var(--padding-button-card-add);
 }
 
 .card_button:hover{
@@ -72,6 +72,20 @@
 }
 
 .promo_button:hover{
+    cursor: pointer;
+}
+
+.footer_button{
+    font-size: 20px;
+    color: var(--color-text);
+    border: none;
+    background: none;
+    font-weight: bold;
+    padding: 0;
+    text-align: left;
+}
+
+.footer_button:hover{
     cursor: pointer;
 }
 

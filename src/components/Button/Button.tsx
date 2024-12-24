@@ -45,6 +45,13 @@ export const Button=({position, title, onClick, isActive}:ButtonProps)=>{
                     {title}
                 </button>
             }
+            {position === 'footer' &&
+                <button
+                    onClick={onClick}
+                    className={`${style.footer_button}`}>
+                    {title}
+                </button>
+            }
         </>
     )
 }
