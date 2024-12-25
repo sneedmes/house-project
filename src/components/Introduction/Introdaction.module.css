@@ -16,7 +16,6 @@
 .intro_info h1{
     font-size: 60px;
     color: var(--color-text);
-    margin: 0;
 }
 
 .intro_info a{
@@ -24,11 +23,28 @@
     text-decoration: none;
 }
 
-
-
 .intro_info p{
     margin-bottom: 40px;
     font-size: 18px;
     color: var(--color-paragraph);
     margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        padding: 0 39px;
+    }
+    .intro_img img{
+        width: 330px;
+        height: 380px;
+    }
+    .intro_info{
+        max-width: 330px;
+    }
+    .intro_info h1{
+        font-size: 40px;
+    }
+    .intro_info p{
+        margin-bottom: 20px;
+    }
 }

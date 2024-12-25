@@ -89,3 +89,16 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 768px){
+    .header_button{
+        font-size: 18px;
+    }
+    .intro_button{
+        padding: 18px 51px;
+        max-width: 210px;
+    }
+    .card_button{
+        width: 290px;
+        padding: 21px 96px;
+    }
+}
