@@ -29,40 +29,44 @@ export const Footer=()=>{
 
                     </Box>
 
-                    <Box component="section" className={`${styles.footer_sections}`}>
+                    <Box component="section" className={`${styles.footer_container_sections}`}>
 
-                        <Box component="section" className={`${styles.footer_section}`}>
-                            <Button position={"footer"} title={"Репродукции"} onClick={()=>null} isActive={false}/>
-                            <p>Франция</p>
-                            <p>Германия</p>
-                            <p>Англия</p>
+                        <Box component="section" className={`${styles.footer_sections}`}>
+
+                            <Box component="section" className={`${styles.footer_section}`}>
+                                <Button position={"footer"} title={"Репродукции"} onClick={()=>null} isActive={false}/>
+                                <p>Франция</p>
+                                <p>Германия</p>
+                                <p>Англия</p>
+                            </Box>
+
+                            <Box component="section" className={`${styles.footer_section}`}>
+                                <Button position={"footer"} title={"Новинки"} onClick={()=>null} isActive={false}/>
+                                <p>2021</p>
+                                <p>2022</p>
+                            </Box>
+
+                            <Box component="section" className={`${styles.footer_section}`}>
+                                <Button position={"footer"} title={"О нас"} onClick={()=>null} isActive={false}/>
+                                <p>Художники</p>
+                                <p>Менеджеры</p>
+                            </Box>
+
                         </Box>
 
-                        <Box component="section" className={`${styles.footer_section}`}>
-                            <Button position={"footer"} title={"Новинки"} onClick={()=>null} isActive={false}/>
-                            <p>2021</p>
-                            <p>2022</p>
-                        </Box>
+                        <Box component="section" className={`${styles.footer_contacts}`}>
 
-                        <Box component="section" className={`${styles.footer_section}`}>
-                            <Button position={"footer"} title={"О нас"} onClick={()=>null} isActive={false}/>
-                            <p>Художники</p>
-                            <p>Менеджеры</p>
-                        </Box>
+                            <Box component="section" className={`${styles.footer_social}`}>
+                                <FacebookIcon/>
+                                <InstagramIcon/>
+                                <YouTubeIcon/>
+                            </Box>
 
-                    </Box>
+                            <Box component="section" className={`${styles.footer_rights}`}>
+                                <p>Ink. House ®</p>
+                                <p>All rights reserved</p>
+                            </Box>
 
-                    <Box component="section" className={`${styles.footer_contacts}`}>
-
-                        <Box component="section" className={`${styles.footer_social}`}>
-                            <FacebookIcon/>
-                            <InstagramIcon/>
-                            <YouTubeIcon/>
-                        </Box>
-
-                        <Box component="section" className={`${styles.footer_rights}`}>
-                            <p>Ink. House ®</p>
-                            <p>All rights reserved</p>
                         </Box>
 
                     </Box>

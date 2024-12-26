@@ -30,3 +30,21 @@
     display: flex;
     gap: 30px;
 }
+
+@media screen and (max-width: 768px){
+    .team{
+        padding: 0 39px;
+    }
+    .team_container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .team_info{
+        gap: 30px;
+        margin-top: 0;
+    }
+    .team_info_text h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}

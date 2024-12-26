@@ -7,6 +7,7 @@ import {Team} from "./components/Team/Team";
 import {Footer} from "./components/Footer/Footer";
 
 function App() {
+    document.title="Ink. House"
     return (
         <>
             <Header/>

@@ -1,6 +1,5 @@
 .footer{
     padding: 23px 165px;
-    box-sizing: content-box;
     min-width: 100%;
     background-color: var(--bgcolor-main);
 }
@@ -49,10 +48,14 @@
     gap: 8px;
 }
 
+.footer_container_sections{
+    display: flex;
+    gap: 248px;
+}
+
 .footer_sections{
     display: flex;
     gap: 60px;
-    margin-right: 248px;
 }
 
 .footer_section{
@@ -73,8 +76,24 @@
     gap: 6px;
 }
 
-
-
-
-
-
+@media screen and (max-width: 768px) {
+    .footer{
+        padding: 23px 39px;
+    }
+    .footer h4{
+        font-weight: 500;
+    }
+    .footer_container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer_main{
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+        margin-right: 0;
+    }
+    .footer_container_sections{
+        gap: 75px;
+    }
+}

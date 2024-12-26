@@ -42,3 +42,28 @@
     font-size: 18px;
     line-height: 150%;
 }
+
+@media screen and (max-width: 768px) {
+    .promo {
+        margin: 70px 0 0 0;
+        padding: 0;
+        background-image: url("../../../public/ad_back_768.png");
+    }
+    .promo_container{
+        width: 690px;
+        padding: 70px 39px;
+    }
+    .promo_title{
+        margin-bottom: 30px;
+    }
+    .promo_title img{
+        width: 60px;
+        height: 60px;
+    }
+    .promo_title h2{
+        font-size: 30px;
+    }
+    .promo_text{
+        margin-bottom: 30px;
+    }
+}
