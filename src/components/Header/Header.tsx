@@ -4,12 +4,7 @@ import Container from "@mui/material/Container";
 import {ShoppingCartOutlined} from "@mui/icons-material";
 import styles from "./Header.module.css"
 
-type HeaderProps = {
-    active: string,
-    onClick: (tab: string) => void
-}
-
-export const Header = ({active, onClick}:HeaderProps) => {
+export const Header = () => {
     return (
         <>
             <Container disableGutters className={`${styles.header}`}>
@@ -23,9 +18,9 @@ export const Header = ({active, onClick}:HeaderProps) => {
 
                 {/*Start of nav section*/}
                 <Box component="nav" className={`${styles.nav}`}>
-                    <Button position={"header"} title={"Репродукции"} onClick={()=>onClick('reproduction')} isActive={active === 'reproduction'}/>
-                    <Button position={"header"} title={"Новинки"} onClick={()=>onClick('news')} isActive={active === 'news'}/>
-                    <Button position={"header"} title={"О нас"} onClick={()=>onClick('about')} isActive={active === 'about'}/>
+                    <Button position={"header"} title={"Репродукции"} onClick={()=>null} isActive={false}/>
+                    <Button position={"header"} title={"Новинки"} onClick={()=>null} isActive={false}/>
+                    <Button position={"header"} title={"О нас"} onClick={()=>null} isActive={false}/>
                     <ShoppingCartOutlined/>
                 </Box>
                 {/*End of nav section*/}
